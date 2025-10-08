@@ -16,7 +16,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","http://localhost:30001"],
+    allow_origins=["https://snake-game-taupe-nu.vercel.app","http://localhost:3000","http://localhost:30001"],
     allow_credentials=True,
     allow_methods=["POST","GET","DELETE","PUT"],
     allow_headers=["*"]
