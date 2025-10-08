@@ -1,0 +1,20 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Mirza Hussain",email = "mohammedhussain2727@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gunicorn (>=23.0.0,<24.0.0)",
+    "motor (>=3.7.1,<4.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "fastapi[all] (>=0.118.0,<0.119.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
